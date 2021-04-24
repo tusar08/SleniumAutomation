@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.hrm.adminTest.Deletuser">
+        <methods>
+          <include name="deluserTest"/>
+        </methods>
+      </class> <!-- com.hrm.adminTest.Deletuser -->
+      <class name="com.hrm.adminTest.PIMTest">
+        <methods>
+          <include name="CreatEmpTest"/>
+        </methods>
+      </class> <!-- com.hrm.adminTest.PIMTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
